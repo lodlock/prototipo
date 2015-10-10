@@ -10,8 +10,6 @@
     <sprite>sprites\spr_ch_walk_r</sprite>
     <sprite>sprites\spr_ch_walk_l</sprite>
     <sprite>sprites\sprite_vacio</sprite>
-    <sprite>sprites\spriteOriol</sprite>
-    <sprite>sprites\sprite5</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_sala1</background>
