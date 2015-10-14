@@ -38,7 +38,7 @@
     </objects>
     <objects name="Objetos Sala1">
       <object>objects\obj_maceta</object>
-      <object>objects\obj_armario</object>
+      <object>objects\obj_armario1</object>
       <object>objects\obj_puerta</object>
     </objects>
   </objects>
