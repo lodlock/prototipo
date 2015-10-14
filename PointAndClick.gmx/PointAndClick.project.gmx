@@ -6,21 +6,41 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_ch_idle</sprite>
-    <sprite>sprites\Sprite_Rodrigo</sprite>
-    <sprite>sprites\spr_ch_walk_r</sprite>
-    <sprite>sprites\spr_ch_walk_l</sprite>
     <sprite>sprites\sprite_vacio</sprite>
-    <sprite>sprites\spr_rojo</sprite>
+    <sprites name="Sprites HUD">
+      <sprite>sprites\spr_pomo_HUD</sprite>
+    </sprites>
+    <sprites name="Sprites Personaje">
+      <sprite>sprites\spr_ch_idle</sprite>
+      <sprite>sprites\spr_ch_walk_r</sprite>
+      <sprite>sprites\spr_ch_walk_l</sprite>
+    </sprites>
+    <sprites name="Sprites Sala1">
+      <sprite>sprites\spr_sala1Maceta</sprite>
+      <sprite>sprites\spr_sala1Armario</sprite>
+      <sprite>sprites\spr_sala1Puerta</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_sala1</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\obj_ch</object>
-    <object>objects\obj_gameControl</object>
-    <object>objects\obj_click</object>
+    <objects name="Objetos Personaje">
+      <object>objects\obj_ch</object>
+    </objects>
+    <objects name="Objetos de sistema">
+      <object>objects\obj_gameControl</object>
+      <object>objects\obj_click</object>
+    </objects>
+    <objects name="Objetos HUD">
+      <object>objects\obj_hud_pomo</object>
+    </objects>
+    <objects name="Objetos Sala1">
+      <object>objects\obj_maceta</object>
+      <object>objects\obj_armario</object>
+      <object>objects\obj_puerta</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\pr_sala1</room>
