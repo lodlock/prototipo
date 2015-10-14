@@ -25,11 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//Crea las variables de texto
-global.textoPuerta = false;
-
-instance_create(x,y,obj_ch);//Crea al personaje
-
+            <string>instance_create(x,y,obj_ch);//Crea al personaje
 </string>
           </argument>
         </arguments>
@@ -61,32 +57,6 @@ if instance_exists(obj_click){
 }
 else{
     instance_create(mouse_x,mouse_y,obj_click); //En caso de que no exista, crea la entidad en la psoción donde se esté clicando.
-}
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="8" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>///Textos
-if global.textoPuerta = true {
-    draw_text_ext_colour(84,450, "Una puerta, parece que al otro lado hay una luz, pero no puedo abrirla sin el pomo",15,500,c_white,c_white,c_white,c_white,1);
 }
 </string>
           </argument>
